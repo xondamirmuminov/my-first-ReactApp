@@ -60,8 +60,9 @@ body {
 }
 .home {
     background: var(--back-sm);
-    padding: 36px 0;
+    padding: 50px 0;
     height: 919px;
+    padding-bottom: 0;
 }
 .home__inner {
     display: flex;
@@ -113,7 +114,6 @@ body {
 }
 .about {
     background: var(--black);
-    padding-top: 80px;
     padding-bottom: 40px;
 }
 .about__inner {
@@ -144,12 +144,46 @@ body {
 .main {
     background: var(--black);
     padding-top: 100px;
+    margin: auto;
 }
 .main__card {
     background: #151c29;
     padding: 30px;
     border-radius: 10px;
-    width: 350px;
-    height: 360px;
-    text-align: center;
+    width: 390px;
+    height: 400px;
+    text-align: center; 
+    margin-left: 15px;
+    margin-bottom: 60px;
+}
+.main__card img {
+    margin: auto;
+    margin-bottom: 30px;
+}
+.main__card-title{
+    color: var(--white);
+    font-size: 25px;
+    font-weight: 600;
+}
+.slick-arrow {
+    display: flex !important;
+}
+.slick-next, .slick-prev {
+    display: none !important;
+}
+.slick-dots {
+    background: var(--black);
+    padding-bottom: 30px !important;
+}
+.slick-active button::before {
+    font-size: 18px !important;
+    color: white !important;
+}
+.slick-dots li button::before {
+    color: 
+    rgb(151, 151, 151) !important;
+    font-size: 16px !important;
+}
+.main__inner-card {
+    display: flex !important;
 }

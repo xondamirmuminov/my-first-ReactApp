@@ -1,7 +1,10 @@
 import React from 'react';
-import AboutImg from './img/section2.svg'
+import AboutImg from './img/section2.svg';
+
+
 
 const About = ()=> {
+    
     return(
         <section class="about">
             <div class="container">
